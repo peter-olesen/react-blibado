@@ -1,0 +1,19 @@
+.Header {        
+    span:nth-of-type(1) {
+        color: var(--logo-blue);
+    }
+
+    span:nth-of-type(2) {
+        color: var(--logo-yellow);
+    }
+
+    span:nth-of-type(3) {
+        color: var(--logo-red);
+    }
+
+    sup {
+        color: var(--medium);
+        font-weight: 400;
+        font-size: 3rem;
+    }
+}

@@ -1,0 +1,11 @@
+.Footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: var(--dark);
+    color: var(--primary);
+    padding: 0 1rem;
+
+    iframe {
+        width: 90%;
+    }
+}

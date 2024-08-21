@@ -1,0 +1,33 @@
+.Navigation {
+    width: 100%;
+    color: var(--light);
+    background: var(--dark);
+    font-size: 1.2rem;
+    
+    .signup {
+        color: var(--static);
+    }
+    
+    ul {
+        display: flex;
+        flex-direction: row;
+        // gap: 1rem;
+        padding: 0;
+        list-style: none;
+
+        li {
+            padding: 0.5rem;
+
+            &:hover {
+                background: var(--black);
+            }
+
+            a {
+                color: var(--light)!important;
+                text-decoration: none;
+                padding: 0.5rem;
+                height: 1.5rem;
+            }
+        }
+    }
+}

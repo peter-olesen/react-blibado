@@ -23,11 +23,17 @@
             }
 
             a {
-                color: var(--light)!important;
+                color: var(--light);
                 text-decoration: none;
                 padding: 0.5rem;
                 height: 1.5rem;
+
+            }
+
+            &:last-child a {
+                color: var(--static);
             }
         }
+
     }
 }
